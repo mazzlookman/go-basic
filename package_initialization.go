@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"golang-dasar/database"
-)
+import _ "golang-dasar/database"
 
 func main() {
-	connection := database.GetConnection()
-	fmt.Println(connection)
+	//connection := database.GetConnection()
+	//fmt.Println(connection)
 }
